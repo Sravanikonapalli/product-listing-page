@@ -46,6 +46,7 @@ class Register extends Component {
           <input name="mobile" placeholder="Mobile" onChange={this.handleChange} required />
           <input name="password" type="password" placeholder="Password" onChange={this.handleChange} required />
           <button type="submit">Register</button>
+          <p>Already have an account <a href="/login">Login</a></p>
         </form>
         {message && <p className="error-message">{message}</p>}
       </div>

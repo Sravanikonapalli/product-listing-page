@@ -51,6 +51,7 @@ class Login extends Component {
             required
           />
           <button type="submit">Login</button>
+          <p>Don't have an account? <a href="/register">Register</a></p>
         </form>
         {message && <p className="error-message">{message}</p>}
       </div>
