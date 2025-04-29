@@ -1,0 +1,128 @@
+.products-container-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1; 
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-heading {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.products-above-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.filters-container {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    flex-shrink: 0; 
+    position: sticky;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.recommendation-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.recommendation-dropdown {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+    z-index: 10;  
+   
+}
+
+.recommendation-dropdown li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.recommendation-dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (min-width: 768px) {
+    .products-container-wrapper {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    .products-container-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filters-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .products-above-container {
+        flex-direction: row;
+        align-items: center;
+    }
+}
