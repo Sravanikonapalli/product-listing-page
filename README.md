@@ -47,7 +47,7 @@ npm start
  [backend demo](https)
 
  2. frontend :
- [frontend live demo]('https://verecl.com')
+ [frontend live demo](https://verecl.com)
  
 
 
