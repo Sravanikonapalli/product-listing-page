@@ -43,11 +43,10 @@ npm start
 
  ## Live links 
 
- 1. backend:
- [backend demo](https)
+ [backend demo](https://product-listing-page-aszv.onrender.com)
 
- 2. frontend :
- [frontend live demo](https://verecl.com)
+
+ [frontend live demo](https://product-listing-page-jet-nine.vercel.app/)
  
 
 
