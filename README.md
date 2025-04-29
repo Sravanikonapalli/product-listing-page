@@ -2,14 +2,12 @@
 
 This project is a simple product listing page designed to display a collection of products with relevant details.
 
-----
 
 ## Features
-----
 - Display a list of products.
 - Responsive design for various screen sizes.
 - Easy to customize and extend.
-------
+
 
 ## Technologies Used
 
@@ -17,8 +15,9 @@ This project is a simple product listing page designed to display a collection o
 - CSS
 - JavaScript
 - React
+- sqlite
 
--------
+
 ## Getting Started
 
 1. Clone the repository:
@@ -42,15 +41,15 @@ npm install
 npm start
 ```
 
--------
  ## Live links 
 
  1. backend:
- 
+ [backend demo](https)
+
+ 2. frontend :
  [frontend live demo]('https://verecl.com')
- [backend demo]('htps')
  
-------------
+
 
 ## Deployment
 
